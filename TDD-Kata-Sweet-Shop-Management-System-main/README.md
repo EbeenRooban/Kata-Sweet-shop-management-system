@@ -9,10 +9,6 @@
 
 A comprehensive full-stack web application for managing a sweet shop, built using **Test-Driven Development (TDD)** methodology. This project demonstrates modern web development practices with a complete MERN stack implementation, featuring authentication, inventory management, and a responsive user interface.
 
-## 🌐 Public Repository
-
-**GitHub Repository:** [https://github.com/Sivakanithi/TDD-Kata-Sweet-Shop-Management-System](https://github.com/Sivakanithi/TDD-Kata-Sweet-Shop-Management-System)
-
 ## 📖 Project Overview
 
 The Sweet Shop Management System is a modern web application that allows users to:
@@ -103,90 +99,6 @@ const generateAIImageURL = (productName) => {
 - **Node.js** (v16 or higher) - [Download](https://nodejs.org/)
 - **npm** (v8 or higher) - Comes with Node.js
 - **Git** - [Download](https://git-scm.com/)
-
-### Local Development Setup
-
-#### Step 1: Clone the Repository
-```bash
-git clone https://github.com/Sivakanithi/TDD-Kata-Sweet-Shop-Management-System.git
-cd TDD-Kata-Sweet-Shop-Management-System
-```
-
-#### Step 2: Environment Configuration
-```bash
-# Navigate to backend directory
-cd backend
-
-# Copy environment template
-cp .env.example .env
-
-# Edit .env file with your configuration (optional for development)
-# The application works out-of-the-box with default settings
-```
-
-#### Step 3: Install Dependencies
-
-**Option 1: Automatic Installation (Recommended)**
-```bash
-# From project root
-npm run install:all
-```
-
-**Option 2: Manual Installation**
-```bash
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-```
-
-#### Step 4: Start the Application
-
-**Option 1: Automatic Startup (Recommended)**
-```bash
-# From project root - starts both servers
-npm start
-```
-
-**Option 2: Windows Scripts**
-```powershell
-# PowerShell (Recommended for Windows)
-.\start-app.ps1
-
-# Or Command Prompt
-start-app.bat
-```
-
-**Option 3: Manual Startup**
-```bash
-# Terminal 1 - Start Backend
-cd backend
-npm start
-
-# Terminal 2 - Start Frontend (in new terminal)
-cd frontend
-npm start
-```
-
-### 🌐 Access the Application
-
-Once both servers are running:
-
-- **Frontend Application**: [http://localhost:3000](http://localhost:3000)
-- **Backend API**: [http://localhost:3001](http://localhost:3001)
-- **API Documentation**: [http://localhost:3001](http://localhost:3001) (root endpoint)
-
-### 🔑 Test Credentials
-
-The application comes with pre-configured test users:
-
-| Role  | Email               | Password | Access Level |
-|-------|---------------------|----------|--------------|
-| Admin | admin@sweetshop.com | admin123 | Full access to admin panel |
-| User  | user@sweetshop.com  | user123  | Browse and purchase sweets |
 
 ## 📸 Application Screenshots
 
@@ -961,7 +873,6 @@ If you encounter any issues or have questions:
 ## 🔗 Links
 
 - **Live Demo**: [Coming Soon - Deploy to your preferred platform]
-- **GitHub Repository**: [https://github.com/Sivakanithi/TDD-Kata-Sweet-Shop-Management-System](https://github.com/Sivakanithi/TDD-Kata-Sweet-Shop-Management-System)
 - **Documentation**: See ENVIRONMENT.md for detailed setup instructions
 - **Test Reports**: Run `npm test` for comprehensive test results
 
